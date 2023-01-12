@@ -2,10 +2,10 @@ title: r53-ddns
 name: r53-ddns
 type: app
 base: core20
-version: 'v0.1.3-test'
+version: 'v0.1.3-test1'
 summary: r53-ddns Amazon Route 53 DDNS
 description: |
-  Amazon Route 53 DDNS - `r53-ddns` - a way to keep a consistant url for a network where the external ip address may change via Amazon Route 53.   
+  Amazon Route 53 DDNS - `r53-ddns` - a way to keep a consistant url for a network where the external ip address may change via Amazon Route 53.
 
 grade: stable
 confinement: strict
@@ -22,7 +22,7 @@ architectures:
 parts:
   r53-ddns:
     plugin: rust
-    source: https://github.com/a1ecbr0wn/r53-ddns/archive/refs/tags/v0.1.3-test.tar.gz
+    source: https://github.com/a1ecbr0wn/r53-ddns/archive/refs/tags/v0.1.3-test1.tar.gz
 
 apps:
   r53-ddns:
