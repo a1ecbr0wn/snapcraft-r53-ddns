@@ -1,0 +1,24 @@
+title: r53-ddns
+name: r53-ddns
+type: app
+base: core20
+version: ':snap_version'
+summary: r53-ddns Amazon Route 53 DDNS
+description: |
+  Amazon Route 53 DDNS - `r53-ddns` - a way to keep a consistant url for a network where the external ip address may change via Amazon Route 53.   
+
+grade: stable
+confinement: strict
+issues: https://github.com/a1ecbr0wn/r53-ddns/issues
+website: https://r53-ddns.noser.net
+icon: img/r53-ddns_icon.png
+license: Apache-2.0
+
+parts:
+  r53-ddns:
+    plugin: rust
+    source: https://github.com/a1ecbr0wn/r53-ddns/archive/refs/tags/:snap_version.tar.gz
+
+apps:
+  r53-ddns:
+    command: bin/r53-ddns
