@@ -14,6 +14,11 @@ website: https://r53-ddns.noser.net
 icon: img/r53-ddns_icon.png
 license: Apache-2.0
 
+architectures:
+  - amd64
+  - armhf
+  - arm64
+
 parts:
   r53-ddns:
     plugin: rust
