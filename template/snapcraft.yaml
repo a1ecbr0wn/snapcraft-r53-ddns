@@ -3,7 +3,7 @@ name: r53-ddns
 type: app
 base: core20
 version: ':snap_version'
-summary: r53-ddns Amazon Route 53 DDNS
+summary: Set an Amazon Route 53 DNS record for the server/network
 description: |
   Amazon Route 53 DDNS - `r53-ddns` - a way to keep a consistant url for a network where the external ip address may change via Amazon Route 53.
 
