@@ -1,8 +1,8 @@
 title: r53-ddns
 name: r53-ddns
 type: app
-base: core20
-version: 'v1.0.13'
+base: core24
+version: "v1.0.13"
 summary: Set an Amazon Route 53 DNS record for the server/network
 description: |
   Amazon Route 53 DDNS - `r53-ddns` - a way to keep a consistant url for a network where the external ip address may change via Amazon Route 53.
@@ -14,14 +14,6 @@ source-code: https://github.com/a1ecbr0wn/r53-ddns
 website: https://r53-ddns.a1ecbr0wn.com
 icon: img/r53-ddns_icon.png
 license: Apache-2.0
-
-architectures:
-  - build-on: amd64
-    run-on: amd64
-  - build-on: arm64
-    run-on: arm64
-  - build-on: armhf
-    run-on: armhf
 
 parts:
   r53-ddns:
